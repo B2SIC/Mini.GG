@@ -1,0 +1,3260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>730</width>
+    <height>590</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>730</width>
+    <height>590</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Mini.GG - v1.2</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/lol_png.png</normaloff>img/lol_png.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>261</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>챔피언 선택</string>
+    </property>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>241</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>가렌</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/1.png</normaloff>Champion/1.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>갈리오</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/2.png</normaloff>Champion/2.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>갱플랭크</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/3.png</normaloff>Champion/3.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>그라가스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/4.png</normaloff>Champion/4.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>그레이브즈</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/5.png</normaloff>Champion/5.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>나르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/6.png</normaloff>Champion/6.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>나미</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/7.png</normaloff>Champion/7.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>나서스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/8.png</normaloff>Champion/8.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>노틸러스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/9.png</normaloff>Champion/9.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>녹턴</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/10.png</normaloff>Champion/10.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>누누와 윌럼프</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/11.png</normaloff>Champion/11.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>니달리</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/12.png</normaloff>Champion/12.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>니코</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/13.png</normaloff>Champion/13.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>다리우스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/14.png</normaloff>Champion/14.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>다이애나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/15.png</normaloff>Champion/15.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>드레이븐</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/16.png</normaloff>Champion/16.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>라이즈</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/17.png</normaloff>Champion/17.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>라칸</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/18.png</normaloff>Champion/18.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>람머스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/19.png</normaloff>Champion/19.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>럭스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/20.png</normaloff>Champion/20.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>럼블</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/21.png</normaloff>Champion/21.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>레넥톤</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/22.png</normaloff>Champion/22.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>레오나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/23.png</normaloff>Champion/23.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>렉사이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/24.png</normaloff>Champion/24.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>렝가</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/25.png</normaloff>Champion/25.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>루시안</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/26.png</normaloff>Champion/26.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>룰루</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/27.png</normaloff>Champion/27.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>르블랑</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/28.png</normaloff>Champion/28.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>리신</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/29.png</normaloff>Champion/29.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>리븐</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/30.png</normaloff>Champion/30.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>리산드라</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/31.png</normaloff>Champion/31.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>마스터 이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/32.png</normaloff>Champion/32.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>마오카이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/33.png</normaloff>Champion/33.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>말자하</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/34.png</normaloff>Champion/34.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>말파이트</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/35.png</normaloff>Champion/35.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>모데카이저</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/36.png</normaloff>Champion/36.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>모르가나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/37.png</normaloff>Champion/37.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>문도 박사</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/38.png</normaloff>Champion/38.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>미스 포츈</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/39.png</normaloff>Champion/39.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>바드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/40.png</normaloff>Champion/40.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>바루스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/41.png</normaloff>Champion/41.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>바이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/42.png</normaloff>Champion/42.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>베이가</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/43.png</normaloff>Champion/43.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>베인</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/44.png</normaloff>Champion/44.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>벨코즈</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/45.png</normaloff>Champion/45.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>볼리베어</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/46.png</normaloff>Champion/46.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>브라움</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/47.png</normaloff>Champion/47.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>브랜드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/48.png</normaloff>Champion/48.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>블라디미르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/49.png</normaloff>Champion/49.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>블리츠크랭크</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/50.png</normaloff>Champion/50.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>빅토르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/51.png</normaloff>Champion/51.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>뽀삐</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/52.png</normaloff>Champion/52.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>사이온</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/53.png</normaloff>Champion/53.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>사일러스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/54.png</normaloff>Champion/54.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>샤코</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/55.png</normaloff>Champion/55.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>세나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/56.png</normaloff>Champion/56.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>세주아니</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/57.png</normaloff>Champion/57.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>세트</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/58.png</normaloff>Champion/58.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>소나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/59.png</normaloff>Champion/59.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>소라카</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/60.png</normaloff>Champion/60.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>쉔</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/61.png</normaloff>Champion/61.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>쉬바나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/62.png</normaloff>Champion/62.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>스웨인</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/63.png</normaloff>Champion/63.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>스카너</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/64.png</normaloff>Champion/64.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>시비르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/65.png</normaloff>Champion/65.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>신짜오</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/66.png</normaloff>Champion/66.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>신드라</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/67.png</normaloff>Champion/67.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>신지드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/68.png</normaloff>Champion/68.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>쓰레쉬</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/69.png</normaloff>Champion/69.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아리</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/70.png</normaloff>Champion/70.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아무무</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/71.png</normaloff>Champion/71.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아우렐리온 솔</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/72.png</normaloff>Champion/72.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아이번</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/73.png</normaloff>Champion/73.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아지르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/74.png</normaloff>Champion/74.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아칼리</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/75.png</normaloff>Champion/75.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아트록스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/76.png</normaloff>Champion/76.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>아펠리오스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/77.png</normaloff>Champion/77.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>알리스타</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/78.png</normaloff>Champion/78.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>애니</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/79.png</normaloff>Champion/79.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>애니비아</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/80.png</normaloff>Champion/80.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>애쉬</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/81.png</normaloff>Champion/81.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>야스오</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/82.png</normaloff>Champion/82.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>에코</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/83.png</normaloff>Champion/83.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>엘리스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/84.png</normaloff>Champion/84.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>오공</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/85.png</normaloff>Champion/85.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>오른</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/86.png</normaloff>Champion/86.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>오리아나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/87.png</normaloff>Champion/87.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>올라프</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/88.png</normaloff>Champion/88.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>요릭</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/89.png</normaloff>Champion/89.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>우디르</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/90.png</normaloff>Champion/90.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>우르곳</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/91.png</normaloff>Champion/91.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>워윅</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/92.png</normaloff>Champion/92.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>유미</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/93.png</normaloff>Champion/93.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>이렐리아</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/94.png</normaloff>Champion/94.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>이블린</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/95.png</normaloff>Champion/95.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>이즈리얼</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/96.png</normaloff>Champion/96.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>일라오이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/97.png</normaloff>Champion/97.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>자르반 4세</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/98.png</normaloff>Champion/98.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>자야</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/99.png</normaloff>Champion/99.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>자이라</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/100.png</normaloff>Champion/100.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>자크</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/101.png</normaloff>Champion/101.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>잔나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/102.png</normaloff>Champion/102.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>잭스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/103.png</normaloff>Champion/103.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>제드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/104.png</normaloff>Champion/104.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>제라스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/105.png</normaloff>Champion/105.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>제이스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/106.png</normaloff>Champion/106.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>조이</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/107.png</normaloff>Champion/107.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>직스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/108.png</normaloff>Champion/108.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>진</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/109.png</normaloff>Champion/109.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>질리언</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/110.png</normaloff>Champion/110.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>징크스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/111.png</normaloff>Champion/111.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>초가스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/112.png</normaloff>Champion/112.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카르마</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/113.png</normaloff>Champion/113.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카밀</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/114.png</normaloff>Champion/114.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카사딘</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/115.png</normaloff>Champion/115.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카서스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/116.png</normaloff>Champion/116.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카시오페아</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/117.png</normaloff>Champion/117.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카이사</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/118.png</normaloff>Champion/118.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카직스</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/119.png</normaloff>Champion/119.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>카타리나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/120.png</normaloff>Champion/120.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>칼리스타</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/121.png</normaloff>Champion/121.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>케넨</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/122.png</normaloff>Champion/122.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>케이틀린</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/123.png</normaloff>Champion/123.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>케인</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/124.png</normaloff>Champion/124.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>케일</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/125.png</normaloff>Champion/125.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>코그모</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/126.png</normaloff>Champion/126.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>코르키</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/127.png</normaloff>Champion/127.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>퀸</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/128.png</normaloff>Champion/128.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>클레드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/129.png</normaloff>Champion/129.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>키아나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/130.png</normaloff>Champion/130.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>킨드레드</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/131.png</normaloff>Champion/131.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>타릭</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/132.png</normaloff>Champion/132.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>탈론</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/133.png</normaloff>Champion/133.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>탈리야</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/134.png</normaloff>Champion/134.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>탐켄치</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/135.png</normaloff>Champion/135.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>트런들</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/136.png</normaloff>Champion/136.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>트리스타나</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/137.png</normaloff>Champion/137.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>트린다미어</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/138.png</normaloff>Champion/138.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>트위스티드 페이트</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/139.png</normaloff>Champion/139.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>트위치</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/140.png</normaloff>Champion/140.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>티모</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/141.png</normaloff>Champion/141.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>파이크</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/142.png</normaloff>Champion/142.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>판테온</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/143.png</normaloff>Champion/143.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>피들스틱</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/144.png</normaloff>Champion/144.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>피오라</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/145.png</normaloff>Champion/145.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>피즈</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/146.png</normaloff>Champion/146.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>하이머딩거</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/147.png</normaloff>Champion/147.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>헤카림</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Champion/148.png</normaloff>Champion/148.png</iconset>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>250</y>
+       <width>161</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>탑</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>정글</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>미드</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>원거리 딜러</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>서포터</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>칼바람</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>포지션 선택:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>277</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>자동 인식</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>191</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>추천 스펠</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <widget class="QLabel" name="spell_img_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_img_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_img_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_img_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_img_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_img_6">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>25</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>45</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>73</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>93</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_5">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>123</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spell_rate_6">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>143</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>190</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>추천 신발</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QLabel" name="shoes_img_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shoes_img_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shoes_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>23</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shoes_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>43</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shoes_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>73</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="shoes_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>93</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>241</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="title">
+     <string>추천 아이템 빌드</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>150</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>150</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_6">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>200</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_8">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>250</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_img_9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>250</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>23</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>43</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>73</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>93</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>153</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>173</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>203</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>223</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_5">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>253</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="item_rate_6">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>273</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="startitem_img_6">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>441</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>추천 스킬 트리</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QLabel" name="skill_img_1">
+     <property name="geometry">
+      <rect>
+       <x>32</x>
+       <y>28</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_img_2">
+     <property name="geometry">
+      <rect>
+       <x>122</x>
+       <y>28</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_img_3">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>28</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_img_4">
+     <property name="geometry">
+      <rect>
+       <x>32</x>
+       <y>108</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_img_5">
+     <property name="geometry">
+      <rect>
+       <x>122</x>
+       <y>108</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_img_6">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>108</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>34</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>54</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>114</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>134</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_61">
+     <property name="geometry">
+      <rect>
+       <x>92</x>
+       <y>41</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>▶</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_62">
+     <property name="geometry">
+      <rect>
+       <x>92</x>
+       <y>121</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>▶</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_63">
+     <property name="geometry">
+      <rect>
+       <x>182</x>
+       <y>41</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>▶</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_64">
+     <property name="geometry">
+      <rect>
+       <x>182</x>
+       <y>121</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>▶</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_1">
+     <property name="geometry">
+      <rect>
+       <x>27</x>
+       <y>73</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_2">
+     <property name="geometry">
+      <rect>
+       <x>117</x>
+       <y>73</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_3">
+     <property name="geometry">
+      <rect>
+       <x>207</x>
+       <y>73</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_4">
+     <property name="geometry">
+      <rect>
+       <x>27</x>
+       <y>153</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_5">
+     <property name="geometry">
+      <rect>
+       <x>117</x>
+       <y>153</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skill_name_6">
+     <property name="geometry">
+      <rect>
+       <x>207</x>
+       <y>153</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>261</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>추천 룬 선택</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QLabel" name="lune_img_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_img_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_img_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_img_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_rate_1">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>33</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_rate_2">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>53</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_rate_3">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>93</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lune_rate_4">
+     <property name="geometry">
+      <rect>
+       <x>166</x>
+       <y>113</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_65">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>43</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_66">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>103</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1~3렙 추천 스킬 트리</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QLabel" name="skill_1_to_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>18</y>
+       <width>241</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>711</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>추천 룬 세부 선택</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QLabel" name="det_lune_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_5">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_6">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_7">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_8">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_9">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_10">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="det_lune_11">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>21</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_4">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>20</y>
+       <width>21</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>20</y>
+       <width>21</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>730</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
